@@ -1,6 +1,5 @@
 "use client"
 
-// Fixed: Ensure proper page rendering on Vercel
 import { useState } from "react"
 import { Card } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
