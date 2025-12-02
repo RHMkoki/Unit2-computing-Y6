@@ -1,0 +1,12 @@
+# Netlify config to use the official Next.js plugin
+# This enables full Next.js support (SSG, SSR, ISR, Edge Functions) on Netlify
+[build]
+  command = "pnpm build"
+  publish = ".netlify/output"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Optional: force Node version (uncomment if you need a specific Node version)
+#[context.production.environment]
+#  NODE_VERSION = "18"
